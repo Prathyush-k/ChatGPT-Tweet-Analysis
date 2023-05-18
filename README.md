@@ -30,3 +30,13 @@ Code: [Cleaning Data](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/blob
 3) Changed emojis into text to keep the semantic meaning ( 😂: face_with_tears_of_joy).
 4) Normalized text (Françoiš': Francois).
 5) Removed special characters, extra spaces, usernames, etc.
+
+
+## Pre-Processing
+### Word Cloud
+We can see the main words/topics which are used in tweets in that time period.
+
+<img src="https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/blob/main/twitter_unigram.png" height="500" /> 
+
+### Latent Dirichlet Allocation (LDA)
+We used LDA topic modelling to seperate the data into 10 topics. We also have the top words from each of the topics.
