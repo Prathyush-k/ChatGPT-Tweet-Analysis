@@ -1,5 +1,5 @@
 # ChatGPT-Tweet-Analysis
-#### **Current Status: Project Planning**
+#### **Current Status: Working**
 
 ## Objective
 The objective of this GitHub repository is to explore and analyze the usage of ChatGPT through sentiment analysis, visualization, and topic modeling techniques. The goal is to gain insights into how ChatGPT is being used and what people are saying about it on Twitter. Additionally, we aim to identify which professions are utilizing ChatGPT the most.
@@ -40,3 +40,15 @@ We can see the main words/topics which are used in tweets in that time period.
 
 ### Latent Dirichlet Allocation (LDA)
 We used LDA topic modelling to seperate the data into 10 topics. We also have the top words from each of the topics.
+
+#### Grid Search for selecting the best parameters.<br />
+We optimized the Alpha value and the number of topics selected using grid search.
+The best topics should have the least similarity among themselves and highest coherence.
+
+Implemented code to select the best parameters for the LDA model which has the least jaccard_similarity and highest u_mass coherence.
+
+**Alpha value:**  0.2 **Number of Topics:**  12<br />
+![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/assets/40651916/d83beafc-c6b0-4830-bb72-9370c043cf5b)
+
+
+
