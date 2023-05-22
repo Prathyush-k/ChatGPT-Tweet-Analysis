@@ -32,9 +32,9 @@ Code: [Cleaning Data](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/blob
 5) Removed special characters, extra spaces, usernames, etc.
 
 
-## Pre-Processing
+## Descriptive Analysis
 ### Word Cloud
-We can see the main words/topics which are used in tweets in that time period.
+The word cloud visualizes the main words/topics used in tweets during the specified time period.
 
 <img src="https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/blob/main/twitter_unigram.png" height="500" /> 
 
@@ -47,8 +47,19 @@ The best topics should have the least similarity among themselves and highest co
 
 Implemented code to select the best parameters for the LDA model which has the least jaccard_similarity and highest u_mass coherence.
 
-**Alpha value:**  0.2 **Number of Topics:**  12<br />
+**Alpha value:**  0.2 **Number of Topics:**  12
+
 ![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/assets/40651916/d83beafc-c6b0-4830-bb72-9370c043cf5b)
 
+### Sentiment Analysis
+Hugging Face model is utilized for sentiment analysis of the top 10k tweets. The overall sentiment is mostly neutral and positive, with very few negative sentiments. 
 
+![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/assets/40651916/7421c3ad-fc98-4c79-8c2f-380f6d3e8374)
+
+We also plotted graphs for each of the topics created by the LDA topic modeling.
+
+#### General topics
+Selected few related topics and plotted the average sentiment of tweet for these topics.
+
+![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/assets/40651916/75416030-ea18-46d0-8663-cfb905e298b5)
 
