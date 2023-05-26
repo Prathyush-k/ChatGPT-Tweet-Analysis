@@ -61,5 +61,5 @@ We also plotted graphs for each of the topics created by the LDA topic modeling.
 #### General topics
 Selected few related topics and plotted the average sentiment of tweet for these topics.
 
-![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/assets/40651916/75416030-ea18-46d0-8663-cfb905e298b5)
+![image](https://github.com/Prathyush-k/ChatGPT-Tweet-Analysis/blob/main/sentiment_analysis.png)
 
