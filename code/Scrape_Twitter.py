@@ -49,4 +49,4 @@ for index, tweet in enumerate(sntwitter.TwitterSearchScraper(query).get_items())
 final_tweets
 final_tweets_df = pd.DataFrame(final_tweets, columns = column_names)
 final_tweets_df
-final_tweets_df.to_csv("Data/chatgpt.csv")
+final_tweets_df.to_csv("../Data/chatgpt.csv")
